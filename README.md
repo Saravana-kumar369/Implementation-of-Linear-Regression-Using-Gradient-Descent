@@ -7,13 +7,13 @@ To write a program to predict the profit of a city using the linear regression m
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
-## Algorithm
-1)Import necessary libraries: numpy, pandas, and StandardScaler from sklearn.preprocessing.
-2)Read the dataset '50_Startups.csv' using pd.read_csv.
-3)Extract input features X and target variable y from the dataset, excluding the first row.
-4)Standardize the input features (X) and target variable (y) using StandardScaler.
-5)Perform linear regression using gradient descent to find the weights (theta) that minimize the mean squared error between predictions and actual target values.
-6)Print the predicted value for a new input data point after standardizing it and using the computed weights (theta) to predict the target value.
+## Algorithm:
+1) Import necessary libraries: numpy, pandas, and StandardScaler from sklearn.preprocessing.
+2) Read the dataset '50_Startups.csv' using pd.read_csv.
+3) Extract input features X and target variable y from the dataset, excluding the first row.
+4) Standardize the input features (X) and target variable (y) using StandardScaler.
+5) Perform linear regression using gradient descent to find the weights (theta) that minimize the mean squared error between predictions and actual target values.
+6) Print the predicted value for a new input data point after standardizing it and using the computed weights (theta) to predict the target value.
 
 ## Program:
 ```
